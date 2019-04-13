@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+		<title>Stack Structure</title>
+	</head>
+	
+	<body>
+
+		<script>
+		/* 13 April 2019 16:43 */
+
+		// # Stack
+
+		// A.
+
+			var letter = [] // this is our stack
+
+			var word = "racecar";
+
+			var rword = "";
+
+			for (var i = 0; i < word.length; i++) {
+				letter.push(word[i]);
+			}
+
+			for (var i = 0; i < word.length; i++) {
+				rword += letter.pop();
+			}
+
+			if (word === rword) {
+				console.log(word + " is a palindrome.");
+			}
+			else {
+				console.log(word + " is not a palindrome.");
+			}
+
+		// B.
+
+			var Stack = function() {
+				this.count = 0;
+				this.storage = {};
+
+				this.push = function(value) {
+					this.storage[this.count] = value;
+					this.count++;
+				}
+
+				this.pop = function() {
+					if(this.count === 0 ) {
+						return undefined;
+					}
+
+					this.count--;
+					var result = this.storage[this.count];
+					delete result;
+					return result;
+				}
+				
+				this.size = function() {
+					return this.count;
+				}
+
+				this.peek = function() {
+					return this.storage[this.count - 1];
+				}
+			}
+
+			var mystack = new Stack();
+
+			mystack.push(1);
+			mystack.push(2);
+			console.log(mystack.peek());
+			console.log(mystack.pop());
+			console.log(mystack.peek());
+			mystack.push("Nirmala");
+			console.log(mystack.size());
+			console.log(mystack.peek());
+			console.log(mystack.pop());
+			console.log(mystack.peek());
+
+		</script>
+
+
+	</body>
+
+
+</html>
