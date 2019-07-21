@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Init](README.md)
+* [Hey!](README.md)
 
 ## Clen Code
 
