@@ -2,7 +2,7 @@
 
 ## **Nama yang bermakna**
 
-Gunakan maksud yang jelas ketika menulis nama. Menentukan nama yang baik membutuhkan waktu tapi itu akan lebih menghemat waktu kedepannya. Nama variabel, fungsi, atau kelas, harus menjawab semua pertanyaan besar. Name tersebut **harus memberitahumu kenapa fungsi/kelas/variabel itu ada, dan apa yang dilakukannya, dan bagaimana cara menggunakannya.** Jika suatu nama membutuhkan sebuah komen, maka nama itu tidak menampakkan maksudnya.  
+Gunakan maksud yang jelas ketika menulis nama. Menentukan nama yang baik membutuhkan waktu tapi itu akan lebih menghemat waktu kedepannya. Kenapa bisa lebih menghemat waktu? karena ketika kamu kembali pada kode yang kamu buat, kamu akan mudah mengetahui apa yang terjadi pada kodemu dengan penamaan yang baik. Nama variabel, fungsi, atau kelas, harus menjawab semua pertanyaan besar. Nama tersebut **harus memberitahumu kenapa fungsi/kelas/variabel itu ada, dan apa yang dilakukannya, dan bagaimana cara menggunakannya.** Jika suatu nama membutuhkan sebuah komen, maka nama itu tidak menampakkan maksudnya.  
 
 
 Misalnya **- int d; // elapsed time in days**

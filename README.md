@@ -5,6 +5,6 @@ Hey! Selamat datang di blog kecil-kecilan saya. Perkenalkan nama saya Ahsan Shib
 Disini saya ingin berbagi sedikit pengetahuan saya kepada teman-teman, semoga teman-teman suka!
 
 {% hint style="info" %}
-Kalian bisa memberikan komentar dan kritik ke saya lewat twitter saya @albarkahdev
+Kalian bisa memberikan komentar dan kritik ke saya lewat twitter saya [@albarkahdev](https://twitter.com/albarkahdev)
 {% endhint %}
 
